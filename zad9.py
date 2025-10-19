@@ -1,6 +1,5 @@
 print("Kalkulator pokazujący wyniki podstawowych działań między dwiema liczbami.")
 
-#nie wiem dokładnie, czy dodać zabezpieczenie przed wprowadzeniem złej wartości, ale dla pewności dodaje
 while True:
     try:
         x = float(input("Podaj 1 liczbę: ").replace(',', '.'))
