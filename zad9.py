@@ -11,5 +11,8 @@ while True:
 print(f"1. {x} + {y} = {x + y}")
 print(f"2.  {x} - {y} = {x - y}")
 print(f"3.  {x} * {y} = {x * y}")
-print(f"4.  {x} / {y} = {x / y}")
+if y == 0 :
+    print(f"4.  Nie można dzielić przez zero")
+else:
+    print(f"4.  {x} / {y} = {x / y}")
 print(f"5.  {x} ** {y} = {x ** y}")
